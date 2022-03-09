@@ -1,21 +1,17 @@
 <template>
-  <TheInnerPageHead title="About us" />
-  <TheWhy />
-  <TheArrival />
+  <TheInnerPageHead title="Product Grid" />
+  <TheProduct />
   <TheFooter />
 </template>
 <script>
 import TheInnerPageHead from "@/components/TheInnerPageHead.vue";
-import TheWhy from "@/components/TheWhy.vue";
-import TheArrival from "@/components/TheArrival.vue";
+import TheProduct from "@/components/TheProduct.vue";
 import TheFooter from "@/components/TheFooter.vue";
 export default {
   components: {
     TheInnerPageHead,
-    TheWhy,
-    TheArrival,
-    TheFooter
+    TheProduct,
+    TheFooter,
   },
 };
 </script>
-
